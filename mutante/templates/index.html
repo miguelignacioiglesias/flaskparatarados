@@ -1,0 +1,13 @@
+{%include 'header.html' %}
+<body>
+
+<!-- Formulario de login -->
+<form method="post" action="/ingresar" enctype="multipart/form-data"> 
+	<label for="txtUsuario">Usuario:</label>
+	<input type="text" id="txtUsuario" name="txtUsuario" required><br><br>
+	<label for="txtPassword">Password:</label>
+	<input type="password" id="txtPassword" name="txtPassword" required><br>
+	<input type="submit" value="Ingresar">
+</form>
+
+{%include 'footer.html' %}
